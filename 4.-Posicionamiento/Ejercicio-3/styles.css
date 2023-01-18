@@ -1,0 +1,30 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 10%, rgba(179, 5, 29, 1) 39%, rgba(164, 5, 37, 1) 65%, rgba(9, 9, 121, 1) 89%);
+    height: 300vh;
+   
+}
+.container {
+    border: 2px solid white;
+    height: 150vh;
+    margin: auto;
+}
+
+h2[class$="Juegos"]{
+   background-color: yellow;
+   position: sticky;
+   top: 0px;
+   height: 50px;
+}
+h2[class$="Materias"]{
+    background-color: yellow;
+    position: sticky;
+    top: 50px;
+    height: 50px;
+ }
+ h2[class$="Frutas"]{
+    background-color: yellow;
+    position: sticky;
+    top: 100px;
+    height: 50px;
+ }
