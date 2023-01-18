@@ -1,0 +1,84 @@
+body{
+    background-color: bisque;
+}
+* {
+    font-family: sans-serif;
+    color: white;
+    text-align: center
+}
+.container{
+    width:70%;
+    background-color:rgb(51, 55, 69); 
+    height: 800px;
+    left: 200px;
+    position: relative;
+}
+.basic {
+    border-radius: 25px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(207, 224, 200, 1) 0%, rgba(41, 119, 170, 1) 0%, rgba(5, 96, 164, 1) 0%, rgba(100, 183, 209, 1) 94%, rgba(5, 169, 179, 1) 100%);
+    position: absolute;
+    width: 25%;
+    height: 500px;
+    overflow: hidden;
+    margin:50px 100px 40px 100px;
+}
+.awesome{
+    border-radius: 25px;
+    background-color: rgb(254, 67, 101);
+    position:absolute;
+    width: 25%;
+    height: 500px;
+    left: 400px;
+    overflow: hidden;
+    margin:50px 100px 40px 100px;
+}
+.premium {
+    border-radius: 25px;
+    background-color: rgb(25, 180, 139);
+    position: absolute;
+    width: 25%;
+    height: 500px;
+    left: 800px;
+    overflow: hidden;
+    margin:50px 100px 40px 100px;
+}
+article h3{
+    padding: 40px 40px 0 40px;
+    margin: 0;
+}
+article span{
+    font-size: 120px;
+}
+.icon{
+    font-size: 30px;
+    margin:0;
+    margin-top: 30px;
+}
+.plan{
+    font-size: 25px;
+}
+p{
+    font-size:18px;
+}
+button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 60px;
+    width: 165px;
+    color:black;
+    font-size: 18px;
+    border-radius: 25px 0 25px 1px;
+    cursor:pointer;
+    transition: width .3s ;
+}
+article:hover{
+    transform: scale(1.1);
+    transition: linear .3s;
+}
+button:hover{
+    width: 100%;
+    height: 65px;
+    border-radius: 0 0 25px 25px;
+}
