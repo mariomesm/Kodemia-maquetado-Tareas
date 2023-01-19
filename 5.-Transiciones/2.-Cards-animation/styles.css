@@ -1,0 +1,113 @@
+body {
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0E0E0E;
+    height: 700px;
+
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 500px;
+    font-family: 'Roboto', sans-serif;
+    color: #FDFDFD;
+    background-color: #5B5782;
+
+
+}
+
+.containerCard1 {
+    width: 25%;
+    height: 350px;
+    border-radius: 25px;
+    position: relative;
+    background: rgb(75, 73, 115);
+    background: linear-gradient(103deg, rgba(75, 73, 115, 1) 0%, rgba(94, 115, 198, 1) 14%, rgba(97, 123, 199, 1) 28%, rgba(102, 135, 202, 1) 42%, rgba(107, 148, 205, 1) 56%, rgba(117, 172, 211, 1) 70%, rgba(139, 177, 217, 1) 84%);
+    transition: width 2s, height 4s;
+}
+
+
+
+.containerCard2 {
+    width: 25%;
+    height: 350px;
+    position: relative;
+    border-radius: 25px;
+    background: rgb(244, 165, 192);
+    background: linear-gradient(103deg, rgba(244, 165, 192, 1) 0%, rgba(229, 154, 190, 1) 14%, rgba(211, 140, 187, 1) 28%, rgba(184, 119, 183, 1) 42%, rgba(167, 105, 181, 1) 56%, rgba(156, 97, 179, 1) 70%, rgba(144, 88, 177, 1) 84%);
+
+}
+
+.containerCard3 {
+
+    width: 25%;
+    height: 350px;
+    position: relative;
+    border-radius: 25px;
+    background: rgb(205, 121, 149);
+    background: linear-gradient(320deg, rgba(205, 121, 149, 1) 0%, rgba(209, 136, 146, 1) 25%, rgba(211, 152, 141, 1) 50%, rgba(214, 166, 138, 1) 75%, rgba(217, 181, 134, 1) 100%);
+
+}
+
+p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 250px;
+    opacity: 25%;
+    position: absolute;
+    bottom: -150px;
+    margin-left: 65px
+}
+
+h3 {
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+    padding-top: 15px;
+}
+
+button {
+    border: solid 0px;
+    margin: 35px 16px;
+    border-radius: 40px;
+    padding: 20px 90px 20px 90px;
+}
+
+.containerCard1:hover {
+    transform: scale(1.2);
+    z-index: 1;
+    box-shadow: 0px 0px 5px 0px black;
+    cursor: pointer;
+}
+
+.containerCard2.containerCard2:hover {
+    transform: scale(1.2);
+    z-index: 1;
+    box-shadow: 0px 0px 5px 0px black;
+    cursor: pointer;
+}
+
+.containerCard3:hover {
+    transform: scale(1.2);
+    z-index: 1;
+    box-shadow: 0px 0px 5px 0px black;
+    cursor: pointer;
+}
+
+button:hover {
+    position: relative;
+    top: 40px;
+    cursor: pointer;
+}
